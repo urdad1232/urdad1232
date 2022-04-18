@@ -13,6 +13,11 @@ local Script5 = Instance.new("TextButton")
 local script6 = Instance.new("TextButton")
 local script7 = Instance.new("TextButton")
 local script8 = Instance.new("TextButton")
+local Script9 = Instance.new("TextButton")
+local script10 = Instance.new("TextButton")
+local Script11 = Instance.new("TextButton")
+local script12 = Instance.new("TextButton")
+Main.Active = true
 
 --Properties:
 
@@ -97,7 +102,7 @@ script3.TextColor3 = Color3.fromRGB(255, 255, 255)
 script3.TextSize = 14.000
 Main.Active = true
 script3.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://controlc.com/548a5a33", true))()
+	loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
 end)
 
 script4.Name = "script 4"
@@ -117,7 +122,7 @@ end)
 Script5.Name = "Script 5"
 Script5.Parent = Main
 Script5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Script5.Position = UDim2.new(0.0456431545, 0, 0.457912445, 0)
+Script5.Position = UDim2.new(0.0456431545, 0, 0.4208754, 0)
 Script5.Size = UDim2.new(0, 97, 0, 19)
 Script5.Font = Enum.Font.SourceSans
 Script5.Text = "SubHub (JailBreak)"
@@ -133,7 +138,7 @@ end)
 script6.Name = "script 6"
 script6.Parent = Main
 script6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-script6.Position = UDim2.new(0.294605821, 0, 0.457912445, 0)
+script6.Position = UDim2.new(0.294605821, 0, 0.4208754, 0)
 script6.Size = UDim2.new(0, 97, 0, 19)
 script6.Font = Enum.Font.SourceSans
 script6.Text = "TopKek V3"
@@ -147,7 +152,7 @@ end)
 script7.Name = "script 7"
 script7.Parent = Main
 script7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-script7.Position = UDim2.new(0.543568492, 0, 0.457912445, 0)
+script7.Position = UDim2.new(0.543568492, 0, 0.4208754, 0)
 script7.Size = UDim2.new(0, 98, 0, 19)
 script7.Font = Enum.Font.SourceSans
 script7.Text = "ZyrexHub"
@@ -163,7 +168,7 @@ end)
 script8.Name = "script 8"
 script8.Parent = Main
 script8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-script8.Position = UDim2.new(0.773858905, 0, 0.457912445, 0)
+script8.Position = UDim2.new(0.773858905, 0, 0.4208754, 0)
 script8.Size = UDim2.new(0, 90, 0, 19)
 script8.Font = Enum.Font.SourceSans
 script8.Text = "Faded (Da Hood)"
@@ -173,3 +178,56 @@ Main.Active = true
 script8.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
 end)
+
+Script9.Name = "Script 9"
+Script9.Parent = Main
+Script9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Script9.Position = UDim2.new(0.0456431545, 0, 0.582491577, 0)
+Script9.Size = UDim2.new(0, 97, 0, 21)
+Script9.Font = Enum.Font.SourceSans
+Script9.Text = "Pet sim X"
+Script9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Script9.TextSize = 14.000
+Main.Active = true
+Script9.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V3/main/Main"))()
+end)
+
+script10.Name = "script 10"
+script10.Parent = Main
+script10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+script10.Position = UDim2.new(0.292531133, 0, 0.57912457, 0)
+script10.Size = UDim2.new(0, 98, 0, 22)
+script10.Font = Enum.Font.SourceSans
+script10.Text = "Infinite yield"
+script10.TextColor3 = Color3.fromRGB(255, 255, 255)
+script10.TextSize = 14.000
+Main.Active = true
+script10.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/TR1V5/TR1V5-V3/main/Main"))()
+end)
+
+Script11.Name = "Script 11"
+Script11.Parent = Main
+Script11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Script11.Position = UDim2.new(0.543568492, 0, 0.582491577, 0)
+Script11.Size = UDim2.new(0, 98, 0, 21)
+Script11.Font = Enum.Font.SourceSans
+Script11.Text = "CMD-X"
+Script11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Script11.TextSize = 14.000
+Main.Active = true
+Script11.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+script12.Name = "script 12"
+script12.Parent = Main
+script12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+script12.Position = UDim2.new(0.773858905, 0, 0.582491577, 0)
+script12.Size = UDim2.new(0, 90, 0, 21)
+script12.Font = Enum.Font.SourceSans
+script12.Text = "Jayz ESP"
+script12.TextColor3 = Color3.fromRGB(255, 255, 255)
+script12.TextSize = 14.000
+Main.Active = true
