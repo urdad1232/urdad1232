@@ -1,0 +1,91 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("FluxHub", "Ocean")
+
+-- MAIN
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Da hood Scripts")
+
+Section:NewButton("Ray X", "Da hood script", function()
+    loadstring(Game:HttpGet("https://pastebin.com/raw/MmSqRWQE"))()
+end)
+
+Section:NewButton("Vortex", "Da Hood script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
+end)
+
+Section:NewButton("Faded", "Da Hood Script", function()
+    _G.Toggles = "V" -- You can put any keybind
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+local Section = Tab:NewSection("Jailbreak Scripts")
+
+Section:NewButton("JailMonkey", "Jailmonkey script for Jailbreak", function()
+    loadstring(Game:HttpGet("https://pastebin.com/raw/2EzCMczK"))()
+end)
+
+Section:NewButton("Vynixu", "Jailbreak script FE also a troll script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+end)
+
+Section:NewButton("SubHub", "Jailbreak script that includes autorob", function()
+    pcall(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kw6m/Subbers-scripts/main/jailbreak", true))()
+end)
+end)
+
+local Section = Tab:NewSection("Saber Simulator")
+
+Section:NewButton("ProximaHub", "Saber Simulator script with Autofarm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+
+local Section = Tab:NewSection("Admin Commands")
+
+Section:NewButton("Cmd X", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+Section:NewButton("Infinite Yield", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+
+--LOCAL PLAYER
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("LocalPlayer")
+
+PlayerSection:NewSlider("WalkSpeed", "Super Speed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+PlayerSection:NewSlider("JumpPower", "Jump Higher", 350, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+PlayerSection:NewButton("Reset J/W", "Resets J/W To default", function()
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+   game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+   
+end)
+PlayerSection:NewButton("Fly press x when executed", "Lets you fly", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+
+        Fly(true)
+end)
+
+
+---OTHERS
+local Others = Window:NewTab("Others")
+local OthersSection = Others:NewSection("Others")
+
+OthersSection:NewButton("Chat Spoofer", "Lets you chat for other players", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+end)
+
+
+---Credits
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits")
+
+CreditsSection:NewLabel("By Empathy?#0008")
